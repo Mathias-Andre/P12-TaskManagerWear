@@ -48,5 +48,6 @@ public class MainActivity extends AppCompatActivity {
         dbh.close();
         aa = new ArrayAdapter<Task>(this, android.R.layout.simple_list_item_1, al);
         lv.setAdapter(aa);
+
     }
 }
